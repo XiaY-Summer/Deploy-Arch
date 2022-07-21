@@ -11,9 +11,8 @@ int main(){
 	system("sudo sed -i '$a\\source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh' ~/.zshrc");
 	system("sudo sed -i '$a\\source /usr/share/autojump/autojump.zsh' ~/.zshrc");
 	
-
 	system("yay -S nerd-fonts-jetbrains-mono");
-	system("curl -fsSL https://raw.githubusercontent.com/zimfw/install/master/install.zsh | zsh");
-	system("sudo sed -i '$a\\zmodule romkatv/powerlevel10k' ~/.zimrc");
+	system("git clone --depth=1 https://gitee.com/romkatv/powerlevel10k.git ~/powerlevel10k");
+	system("echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc");
 
 }
