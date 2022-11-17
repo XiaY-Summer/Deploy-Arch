@@ -27,5 +27,8 @@ int main(){
 
 	system("sudo pacman -S yay --noconfirm");
 	system("sudo pacman -S firefox --noconfirm");
-	system("yay -S fcitx5-pinyin-sougou");
+	system("sudo pacman -S fcitx5-pinyin-zhwiki --noconfirm");
+	system("sudo cp -r .xprofile ~");
+	system("sudo cp -r .pam_environment ~");
+
 }
