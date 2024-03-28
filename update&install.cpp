@@ -4,5 +4,4 @@ sudo sed -i '$a\\Server = https://mirrors.ustc.edu.cn/archlinuxcn/$arch' /etc/pa
 sudo pacman -Syyu --noconfirm
 sudo pacman-key --lsign-key "farseerfc@archlinux.org"
 sudo pacman -S archlinuxcn-keyring --noconfirm
-sudo pacman -S fcitx5-im fcitx5-chinese-addons --noconfirm
 sudo pacman -S yay --noconfirm
