@@ -1,3 +1,5 @@
+####已过期！
+
 # Deploy-Arch
 部署并美化Arch的GNOME42桌面环境
 
