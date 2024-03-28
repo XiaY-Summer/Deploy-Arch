@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo pacman -S git cmake extra-cmake-modules base-devel
+sudo pacman -S git cmake extra-cmake-modules base-devel --noconfirm
 yay -S qt5-tools
 
 git clone https://github.com/matinlotfali/KDE-Rounded-Corners
