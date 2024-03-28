@@ -10,3 +10,4 @@ cd build
 cmake .. --install-prefix /usr
 make
 sudo make install
+sh ../tools/load.sh
